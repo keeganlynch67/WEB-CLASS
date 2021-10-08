@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, Verdana;
+button {
+    padding: 20px;
+    margin: 50px;
+}

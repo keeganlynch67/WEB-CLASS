@@ -1,0 +1,23 @@
+body {
+    background-color: #65CCB8;
+    font-family: Helvetica, Arial, Verdana;
+}
+h1 {
+    color: #182628;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bolder
+}
+
+h3{
+    display: inline-block;
+    color: #182628;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3B945E 
+
+}
+h4{
+    display: inline-block;
+    color: #182628;
+}
