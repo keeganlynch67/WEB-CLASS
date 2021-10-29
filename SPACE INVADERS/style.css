@@ -1,0 +1,57 @@
+div#background {
+    width: 1200px;
+    height: 800px;
+    background-image: url('assets/stars.gif');
+    position: absolute;
+}
+
+div#hero {
+    width: 50px;
+    height: 48px;
+    background-image: url('assets/hero.png');
+    position: absolute;
+    left: 575px;
+    top: 700px; 
+}
+
+div#heros {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+div#missiles {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+div.missile1 {
+    width: 10px;
+    height: 28px;
+    background-image: url('https://raw.githubusercontent.com/keephopealive/academy-space-invaders/master/assets_basic/missile1.png');
+    position: absolute;
+}
+
+div#enemies {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+div.enemy {
+    width: 50px;
+    height: 47px;
+    background-image: url('assets/enemy.png');
+    position: absolute;
+}
+#refreshbutton {  
+    position: absolute;
+    top: 8px;
+    right: 70px;   
+    background: transparent;
+
+    color: #FF3A20;   
+    font-size:14px;
+    font-weight:700;
+}
