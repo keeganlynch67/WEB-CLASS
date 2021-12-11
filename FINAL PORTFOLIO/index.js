@@ -6,13 +6,13 @@ const selectedIndex = null;
 
 imageIndexes.forEach((i) => {
     const image = document.createElement("img");
-    image.src = ` /assets/${i}.jpg`;
+    image.src = ` assets/${i}.jpg`;
     image.alt= "photogallery";
     image.classList.add("galleryImg");
 
     image.addEventListener("click" , () => {
         popup.style.transform = 'translateY(0)';
-        selectedImage.src = ` /assets/${i}.jpg`;
+        selectedImage.src = ` assets/${i}.jpg`;
         selectedImage.alt= "photogallery";
     });
 
